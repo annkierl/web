@@ -1,0 +1,36 @@
+html, body {
+    background: pink;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header li {
+    display: inline-block;
+}
+
+p {
+    padding: 1vw;
+}
+
+/* Kontakt */
+address dl {
+    margin-left: 1vw;
+}
+address dt::after {
+    content: ":"
+}
+
+/* rasa */
+.rasa {}
+.rasa article {
+    display: flex;
+}
+.rasa aside {
+    padding: 1vw;
+}
